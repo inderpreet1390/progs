@@ -1,12 +1,16 @@
 
 import time
 
-V='coronavirus'
-N='3'
-B=['abcde','crnas','onarous']
+V=input() #take input from user for the main string
+N=int(input()) #input for number of strings
+B=list(map(str,input())) #strings which we need to check if they are substring for V
+
+#V='coronavirus'
+#N=3
+#B=['abcde','crnas','onarous']
 
 def func(Bi):
-    V='coronavirus'
+    
     c=0
     pos=0
     l=len(Bi)
